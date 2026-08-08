@@ -6,3 +6,7 @@ Exec=harbour-solarsystem
 Name=Solar System
 Name[de]=Sonnensystem
 
+[X-Sailjail]
+OrganizationName=org.zeburon
+ApplicationName=solarsystem
+Permissions=Location
