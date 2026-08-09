@@ -1,8 +1,8 @@
 #ifdef QT_QML_DEBUG
 #include <QtQuick>
 #endif
-#include <QtQml>
 
+#include <QtQml>
 #include <sailfishapp.h>
 #include "orbitalelementsmoon.h"
 #include "orbitalelementsplanet.h"

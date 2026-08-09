@@ -119,7 +119,7 @@ CoverBackground
     {
         CoverAction
         {
-            iconSource: "image://theme/icon-l-left"
+            iconSource: "image://theme/icon-cover-previous"
             onTriggered:
             {
                 selectPreviousPlanet();
@@ -127,7 +127,7 @@ CoverBackground
         }
         CoverAction
         {
-            iconSource: "image://theme/icon-l-right"
+            iconSource: "image://theme/icon-cover-next"
             onTriggered:
             {
                 selectNextPlanet();
