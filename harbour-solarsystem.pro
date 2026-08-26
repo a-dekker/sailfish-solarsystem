@@ -19,7 +19,8 @@ CONFIG += sailfishapp
 CONFIG += sailfishapp_i18n
 TRANSLATIONS += \
     translations/harbour-solarsystem-de.ts \
-    translations/harbour-solarsystem-sv.ts
+    translations/harbour-solarsystem-sv.ts \
+    translations/harbour-solarsystem-nl.ts
 
 HEADERS += \
     src/orbitalelementsplanet.h \
