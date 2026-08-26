@@ -215,7 +215,7 @@
     <message>
         <location filename="../qml/pages/PlanetDetailsPage.qml" line="278"/>
         <source>Escape Velocity</source>
-        <translation type="unfinished">Ontsnap. snelheid</translation>
+        <translation>Ontsnap. snelheid</translation>
     </message>
     <message>
         <location filename="../qml/pages/PlanetDetailsPage.qml" line="296"/>
