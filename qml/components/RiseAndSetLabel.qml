@@ -8,7 +8,7 @@ Label
 
     // -----------------------------------------------------------------------
 
-    color: highlighted ? Theme.highlightColor : Theme.primaryColor
+    color: highlighted ? Theme.highlightColor : Theme.secondaryHighlightColor
     font { family: Theme.fontFamily; pixelSize: Theme.fontSizeSmall }
     onTimeChanged:
     {

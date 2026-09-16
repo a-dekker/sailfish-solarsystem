@@ -188,7 +188,7 @@ Page
             id: column
 
             width: page.width
-            spacing: Theme.paddingSmall
+            spacing: Theme.paddingLarge
 
             // header: zoom button, help text and title
             PageHeader
@@ -391,10 +391,10 @@ Page
                     }
                     Label
                     {
-                        anchors { horizontalCenter: parent.horizontalCenter; top: nowButton.bottom; topMargin: -Theme.fontSizeTiny }
+                        anchors { horizontalCenter: parent.horizontalCenter; top: nowButton.bottom; }
                         text: topView.visible ? qsTr("Today") : qsTr("Now")
                         color: Theme.secondaryHighlightColor
-                        font { family: Theme.fontFamily; pixelSize: Theme.fontSizeTiny }
+                        font { family: Theme.fontFamily; pixelSize: Theme.fontSizeSmall }
                     }
                 }
                 // animate forward
@@ -420,7 +420,7 @@ Page
                     id: animationIncrementSlider
 
                     width: parent.width
-                    anchors { horizontalCenter: parent.horizontalCenter; top: parent.top; topMargin: -Theme.fontSizeTiny }
+                    anchors { horizontalCenter: parent.horizontalCenter; top: parent.top; topMargin: Theme.fontSizeSmall }
                     minimumValue: 0
                     maximumValue: 1
                     handleVisible: true

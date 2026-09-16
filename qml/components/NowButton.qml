@@ -15,7 +15,7 @@ IconButton
 
     // -----------------------------------------------------------------------
 
-    icon.source: "image://theme/icon-m-up"
+    icon.source: "image://theme/icon-l-backup"
     opacity: active ? 1.0 : 0.5
     onClicked:
     {
@@ -35,7 +35,7 @@ IconButton
 
         source: "../gfx/now.png"
         anchors { centerIn: parent }
-        width: parent.width * 0.575
+        width: parent.width * 0.975
         height: width
         opacity: root.active ? 0.5 : 0.0
 

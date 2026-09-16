@@ -106,7 +106,7 @@ Item
             width: parent.width
             horizontalAlignment: Text.AlignHCenter
             color: Theme.highlightColor
-            font { family: Theme.fontFamily; pixelSize: Theme.fontSizeTiny }
+            font { family: Theme.fontFamily; pixelSize: Theme.fontSizeSmall }
         }
         Item
         {
@@ -119,7 +119,7 @@ Item
             width: parent.width
             horizontalAlignment: Text.AlignHCenter
             color: Theme.secondaryColor
-            font { family: Theme.fontFamily; pixelSize: Theme.fontSizeTiny }
+            font { family: Theme.fontFamily; pixelSize: Theme.fontSizeSmall }
         }
         RiseAndSetLabel
         {
@@ -135,7 +135,7 @@ Item
             width: parent.width
             horizontalAlignment: Text.AlignHCenter
             color: Theme.secondaryColor
-            font { family: Theme.fontFamily; pixelSize: Theme.fontSizeTiny }
+            font { family: Theme.fontFamily; pixelSize: Theme.fontSizeSmall }
         }
         RiseAndSetLabel
         {
@@ -151,7 +151,7 @@ Item
             width: parent.width
             horizontalAlignment: Text.AlignHCenter
             color: Theme.secondaryColor
-            font { family: Theme.fontFamily; pixelSize: Theme.fontSizeTiny }
+            font { family: Theme.fontFamily; pixelSize: Theme.fontSizeSmall }
         }
         RiseAndSetLabel
         {

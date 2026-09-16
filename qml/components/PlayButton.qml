@@ -14,6 +14,7 @@ IconButton
 
     icon.source: active ? "image://theme/icon-l-pause" : "image://theme/icon-l-play"
     icon.mirror: direction < 0 ? true : false
+    icon.rotation: !active && direction < 0 ? 180 : 0
     onClicked:
     {
         if (!settings.animationEnabled || settings.animationDirection === direction)
